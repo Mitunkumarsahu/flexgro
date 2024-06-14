@@ -656,176 +656,6 @@ body {
 
 
 
-
-
-
-
-/* .security-support {
-  letter-spacing: -0.03em;
-  line-height: 110%;
-  font-family: "DM Sans", sans-serif;
-} */
-
-/* .body-text {
-  width: 86.29%;
-  top: 62.43%;
-  line-height: 25px;
-  color: #53576d;
-  font-weight: 400;
-  font-size: 18px;
-} */
-/* .child8 {
-  height: 24.86%;
-  width: 16.64%;
-} */
-/* .mask-group-icon4 {
-  position: relative;
-  height: 22.31%;
-  width: 20.78%;
-  top: 14%;
-  left: 30px;
-} */
-
-/* .container-6-margin {
-  font-family: "DM Sans", sans-serif;
-  margin-top: 50px;
-} */
-
-/* .card-10 {
-  width: 100%;
-  height: 346px;
-  border-radius: 20px;
-  background-color: #e8ebfa;
-  border: 1px solid rgba(67, 81, 156, 0.15);
-}
-.card-9 {
-  width: 100%;
-  height: 346px;
-  border-radius: 20px;
-  background-color: #e8ebfa;
-  border: 1px solid rgba(67, 81, 156, 0.15);
-}
-.card-8 {
-  width: 100%;
-  height: 346px;
-  border-radius: 20px;
-  background-color: #e8ebfa;
-  border: 1px solid rgba(67, 81, 156, 0.15);
-}
-.card-10:hover,
-.card-9:hover,
-.card-8:hover {
-  background: #d7deff;
-} */
-/* .rbi-registered {
-  position: relative;
-  letter-spacing: -0.03em;
-  line-height: 110%;
-  top: 42%;
-  right: 50px;
-} */
-/* .body-text4,
-.body-text99,
-.body-text77,
-.body-text11 {
-  position: relative;
-  height: 12.72%;
-  width: 90%;
-  top: 140px;
-  left: 31px;
-  line-height: 25px;
-  color: #53576d;
-  font-weight: 400;
-  font-size: 18px;
-  display: inline-block;
-} */
-/* .icon {
-  position: relative;
-  height: 22.31%;
-  width: 16.35%;
-  top: 14%;
-  left: 8%;
-} */
-/* .anti-phishing-icon {
-  position: relative;
-  height: 86px;
-  width: 62px;
-  top: 12%;
-  left: 8%;
-}
-.responsibility {
-  position: relative;
-  letter-spacing: -0.03em;
-  width: 61.08%;
-  top: 42%;
-  right: 32px;
-  line-height: 110%;
-}
-.privacy-protection {
-  position: relative;
-  width: 89.44%;
-  top: 23%;
-  left: 30px;
-  letter-spacing: -0.03em;
-  line-height: 110%;
-  display: inline-block;
-}
-.body-text2 {
-  position: relative;
-  width: 87.63%;
-  top: 29%;
-  left: 30px;
-  letter-spacing: -0.03em;
-  line-height: 25px;
-  display: inline-block;
-  color: #53576d;
-  font-weight: 400;
-  font-size: 18px;
-}
-.card-6 {
-  width: 382px;
-  height: 346px;
-  margin-top: 20px;
-  border-radius: 20px;
-  background-color: #ffeef2;
-  border: 1px solid rgba(209, 99, 127, 0.15);
-  margin-left: 10px;
-}
-.card-7 {
-  width: 382px;
-  height: 346px;
-  margin-top: 20px;
-  border-radius: 20px;
-  background-color: #ffeef2;
-  border: 1px solid rgba(209, 99, 127, 0.15);
-}
-.card-6:hover,
-.card-7:hover {
-  background: #ffe0e7;
-}
-.serious-security {
-  position: relative;
-  letter-spacing: -0.03em;
-  line-height: 110%;
-  top: 42%;
-  right: 35px;
-}
-.anti-phishing {
-  position: relative;
-  letter-spacing: -0.03em;
-  line-height: 110%;
-  top: 41%;
-  right: 35px;
-} */
-
-
-
-
-
-
-
-
-
 @keyframes scroll {
   0% {
     transform: translateX(0);
@@ -868,28 +698,6 @@ body {
   display: flex;
   width: calc(324px * 30);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -980,11 +788,6 @@ body {
 
 
 
-
-
-
-
-
 .mask-group-icon3 {
   width: 43px;
   height: 42px;
@@ -1015,38 +818,6 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .main-container {
   display: flex;
   flex-direction: column;
@@ -1057,10 +828,6 @@ body {
 .main-container .section-container {
   width: 80.42% !important;
 }
-
-
-
-
 
 
 
@@ -1155,11 +922,7 @@ body {
   transition: all 0.3s;
 }
 
-.container-3-margin > .container-4-margin > div > div:nth-child(2):hover {
-  width: 42%;
-  padding-top: 10%;
-  margin-bottom: -14%;
-}
+
 
 .why-flexigro {
   column-gap: 0.15%; 
