@@ -1,1320 +1,10 @@
-/* @media (max-width: 480px) {
-    html,
-    body {
-        overflow-x: hidden !important;
-    }
-    body {
-        max-width: 480px;
-        background-size: auto;
-    }
-    header {
-        width: 100%;
-    }
-    .header-logo {
-        display: block;
-        width: 114px;
-    }
-    .logo-container {
-        width: 122px;
-    }
-    .navbar-btn,
-    .navbar-btn-body {
-        display: none;
-    }
-    .global-left-margin {
-        margin-left: 16px;
-    }
-    .global-right-margin {
-        margin-right: 0;
-    }
-    .custom-navbar {
-        max-width: 480px;
-        margin: 0;
-    }
-    .ctas-1,
-    .ctas-2,
-    .arrow-icon {
-        display: none;
-    }
-    .section1-left-container {
-        margin-top: 110px;
-    }
-    .mobiles-icon1 {
-        top: -74px;
-        height: 600px;
-        width: 330px;
-        padding-top: 13px;
-        padding-left: 5px;
-    }
-    .business-loans-made-container {
-        font-size: 26px;
-    }
-    .why-flexigro {
-        margin-left: 15px;
-        top: -175px;
-    }
-    .why {
-        font-size: 26px;
-        font-weight: 500;
-    }
-    .container-height-1 {
-        height: auto;
-    }
-    .container-height-2 {
-        margin-top: -200px;
-        width: 312px !important;
-        border-radius: 10px;
-    }
-    .body-text9 {
-        font-size: 14px;
-        line-height: 20px;
-    }
-    .card-1-seam-less-loan {
-        width: 312px;
-        height: 455px;
-        margin-left: 12px;
-    }
-    .seamless-loan-applications-container {
-        font-size: 26px;
-    }
-    .anim-3 {
-        height: 195px;
-        margin-left: -20px;
-        margin-top: 0px;
-    }
-    .body-text-parent1 {
-        margin-top: -240px;
-        margin-left: 10px;
-    }
-    .mobile-only {
-        display: block !important;
-    }
-    .effortlessly-1 {
-        font-size: 26px;
-        line-height: 32px;
-    }
-    .quick-approval {
-        font-size: 26px;
-    }
-    .body-text8 {
-        font-size: 14px;
-        line-height: 20px;
-        padding-top: 15px;
-    }
-    .lh {
-        line-height: 30px;
-    }
-    .desktop-only {
-        display: none;
-    }
-    .card-2,
-    .simplified {
-        width: 312px;
-    }
-    .simplified-child {
-        margin-left: 15px;
-    }
-    .stress-free-1,
-    .effortlessly {
-        font-size: 26px;
-    }
-    .simplified-bill-payments-container {
-        line-height: 30%;
-        left: 20px;
-    }
-    .body-text7 {
-        font-size: 14px;
-        width: 81%;
-        padding-top: 75px;
-        padding-left: 20px;
-    }
-    .mobile-centre-icon1 {
-        margin-left: 20px;
-        margin-top: 0px;
-    }
-    .mobile-centre-icon1-mobile {
-        height: 76%;
-        width: 85%;
-        margin-left: 20px;
-        margin-top: 0px;
-        transition: transform 0.3s ease;
-    }
-    .simplified-child-m:focus+.mobile-centre-icon1-mobile-m,
-    .mobile-centre-icon1-mobile-m:focus {
-        margin-top: 50px;
-        content: url('assets/SBP-1.svg');
-        transition: all 0.3s ease-in-out;
-        transform: translateY(20px);
-    }
-    .mobile-centre-icon1-mobile-m {
-        margin-left: 20px;
-        margin-top: 90px;
-        width: 231px;
-        bottom: 0.24%;
-        left: 58.6%;
-        border-top-radius: 20px;
-        transition: all 0.5s ease;
-    }
-    .simplified-child-m {
-        height: 100%;
-        width: 100%;
-        border-radius: 10px;
-        background-color: #e8ebfa;
-        border: 1px solid rgba(67, 81, 156, 0.15);
-        overflow: hidden;
-    }
-    .simplified-child-m:hover {
-        background: #d7deff;
-        -webkit-transition: background-color 200ms linear;
-        -ms-transition: background-color 200ms linear;
-        transition: background-color 200ms linear;
-    }
-    .simplified-child-m:hover .mobile-centre-icon1,
-    .mobile-centre-icon1:hover {
-        margin-left: 340px;
-        margin-top: -265px;
-        content: url('assets/bill-payments-2k.png');
-        animation: slide-in 200ms;
-        -webkit-animation: slide-in 200ms ease-out;
-        animation-fill-mode: forwards
-    }
-    .earn-rewards {
-        margin-top: 30px;
-        border-radius: 10px;
-    }
-    .earn-rewards-effortlessly-container {
-        line-height: 30%;
-        top: 45px;
-        left: 20px;
-    }
-    .body-text6 {
-        line-height: 18px;
-        font-size: 14px;
-        padding-top: 65px;
-        padding-left: 20px;
-    }
-    .mobile-centre-icon2 {
-        bottom: 0px;
-        left: 20px;
-    }
-    .mobile-centre-icon2-mobile {
-        position: relative;
-        height: 82%;
-        width: 70%;
-        bottom: 0px;
-        left: 20px;
-    }
-    .earn-rewards-child-2:hover+.mobile-centre-icon2-mobile,
-    .mobile-centre-icon2-mobile:hover {
-        bottom: -4px;
-        left: 20px;
-        content: url('assets/ERE-2.svg');
-        transform: translateY(-10px);
-    }
-    .card-3-stress-free {
-        width: 316px;
-        margin-left: 12px;
-        margin-top: 30px;
-        border-radius: 10px;
-    }
-    .text {
-        margin-left: 0px;
-        margin-top: 45px;
-        width: 66%;
-    }
-    .stress-free-emi-repayments-container {
-        line-height: 20px;
-        display: inline;
-    }
-    .effortlessly-2 {
-        margin-top: 10px;
-        font-size: 26px;
-        width: 215px;
-    }
-    .body-text5 {
-        width: 134%;
-        padding-top: 15px;
-        font-size: 14px;
-        line-height: 20px;
-    }
-    .mobile-centre-icon {
-        top: -127%;
-        left: 5px;
-        height: 190px;
-    }
-    .anime-5 {
-        width: 232px;
-        height: 212px;
-    }
-    .container-3-margin {
-        margin-top: 30px;
-        margin-left: 12px !important;
-    }
-    .container-4-margin {
-        position: relative;
-        margin-top: 30px;
-        max-width: 312px !important;
-    }
-    .container-5-margin {
-        line-height: 14px;
-        margin-top: -130px;
-    }
-    .container-6-margin {
-        position: relative;
-        margin-top: 190px;
-        left: 20px;
-    }
-    .fg-bg-icon {
-        position: relative;
-    }
-    .card-10 {
-        width: 300px;
-        height: 180px;
-        margin-bottom: 20px;
-        margin-top: -50px;
-        background-color: #ffeef2;
-        border: 1px solid rgba(209, 99, 127, 0.15);
-    }
-    .mask-group-icon4 {
-        left: 8%;
-        width: 65px;
-        height: 65px;
-    }
-    .card-9 {
-        width: 300px;
-        height: 160px;
-        margin-bottom: 20px;
-    }
-    .card-8 {
-        width: 300px;
-        height: 167px;
-        background-color: #ffeef2;
-        border: 1px solid rgba(209, 99, 127, 0.15);
-    }
-    .card-7 {
-        width: 300px;
-        height: 160px;
-        margin-left: 14px !important;
-        margin-bottom: 20px;
-        background-color: #e8ebfa;
-        border: 1px solid rgba(67, 81, 156, 0.15);
-    }
-    .cards-allign-2 {
-        justify-content: start;
-    }
-    .card-6 {
-        width: 300px;
-        height: 184px;
-        margin-left: 5px !important;
-        margin-top: 0;
-        background-color: #ffeef2;
-        border: 1px solid rgba(209, 99, 127, 0.15);
-    }
-    .serious-security {
-        top: 18%;
-        left: 18px;
-    }
-    .rbi-registered {
-        top: 17%;
-        left: 28px;
-    }
-    .body-text4 {
-        font-size: 14px;
-        line-height: 18px;
-        top: 48px;
-        left: 20px;
-    }
-    .icon {
-        left: 6%;
-        height: 65px;
-        width: 65px;
-    }
-    .responsibility {
-        top: 18%;
-        left: 22px;
-    }
-    .body-text99 {
-        font-size: 14px;
-        line-height: 18px;
-        left: 25px;
-        top: 35px;
-    }
-    .privacy-protection {
-        top: -32px;
-        left: 92px;
-    }
-    .body-text2 {
-        top: -15%;
-        left: 30px;
-        line-height: 18px;
-        font-size: 14px;
-    }
-    .effortlessly-5 {
-        font-size: 26px;
-        line-height: 15px;
-        color: #313654;
-        font-weight: 600;
-        font-family: "DM Sans", sans-serif;
-    }
-    .body-text77 {
-        top: 40px;
-        right: 15px;
-        left: 16px;
-        width: 100%;
-        line-height: 3px;
-        font-size: 14px;
-    }
-    .anti-phishing-icon {
-        height: 65px;
-        width: 65px;
-        left: 5%;
-    }
-    .anti-phishing {
-        top: 15%;
-        left: 18px;
-    }
-    .body-text11 {
-        width: 87%;
-        top: 30px;
-        left: 28px;
-        line-height: 18px;
-        font-size: 14px;
-        margin-top: 5px !important;
-    }
-    .container-7 {
-        top: 30px;
-    }
-    .our-customers-love {
-        margin-left: 20px;
-        line-height: 12px;
-    }
-    div.highway-slider {
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        height: 324px;
-        div.highway-barrier {
-            position: relative;
-            margin-top: 40px;
-        }
-    }
-    .sub-footer {
-        position: relative;
-        top: -110px;
-        margin-bottom: -26px;
-    }
-    .footer-appstore {
-        padding-top: 12px;
-    }
-    .mask-group-parent {
-        margin-left: 10px;
-    }
-    .verify-the-following22 {
-        position: relative;
-        white-space: nowrap;
-        margin-top: 0;
-        margin-left: 14px
-    }
-    .verify-the-following-parent {
-        display: block;
-    }
-    .iconslinkedin-parent {
-        display: block;
-        margin-top: 10px;
-        margin-left: 10px;
-    }
-    .footer {
-        background-color: rgba(255, 255, 255, 0.5);
-        padding: 5px;
-        text-align: center;
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        height: 80px;
-        width: 100%;
-    }
-    .slider {
-        margin-top: 25px;
-    }
-}
-@media screen and (min-width: 1400px) {
-    .container,
-    .container-lg,
-    .container-md,
-    .container-sm,
-    .container-xl,
-    .container-xxl {
-        max-width: 1217px !important;
-    }
-    .container-4-margin {
-        max-width: 1195px !important;
-    }
-    .verify-the-following21 {
-        margin-top: 0px;
-    }
-}
-@media screen and (min-width: 1100px) and (max-width: 1399px) {
-    .navbar-btn,
-    .header-logo {
-        margin-top: -4px !important;
-    }
-    .earn-rewards {
-        width: 100%;
-        padding-left: 0px;
-    }
-    .mask-group-parent {
-        margin-top: 0;
-        margin-left: 10px;
-    }
-    .mask-group-icon3 {
-        top: 5px;
-    }
-    .verify-the-following21 {
-        margin-top: 10px;
-    }
-    .verify-the-following-parent {
-        margin-right: 1rem;
-    }
-    .container-4-margin {
-        max-width: 1116px !important;
-    }
-    .component-502 {
-        margin-top: 115px;
-    }
-    .mobile-centre-icon1 {
-        margin-left: 308px;
-    }
-    .simplified-child:hover .mobile-centre-icon1,
-    .mobile-centre-icon1:hover {
-        margin-left: 301px;
-    }
-    .mobile-centre-icon2 {
-        margin-left: 306px;
-    }
-    .earn-rewards-child-2:hover .mobile-centre-icon2,
-    .mobile-centre-icon2:hover {
-        margin-left: 300px;
-    }
-    .why,
-    .seamless-loan-applications-container,
-    .effortlessly-1,
-    .stress-free-1,
-    .effortlessly,
-    .effortlessly-2 {
-        font-size: 33px;
-    }
-    .questionMark {
-        margin-left: -470px;
-    }
-}
-@media screen and (min-width: 1275px) and (max-width: 1285px) {
-    .navbar-btn,
-    .header-logo {
-        margin-top: -4px !important;
-    }
-}
-@media screen and (min-width: 1500px) and (max-width: 1560px) {
-    .ml-10 {
-        margin-left: 15px;
-    }
-}
-@media screen and (min-width: 1400px) and (max-width: 1460px) {
-    .navbar-btn,
-    .header-logo {
-        margin-top: -4px;
-    }
-    .verify-the-following-parent {
-        margin-right: 1rem;
-    }
-    .c-ms-3 {
-        margin-left: 1.5rem !important;
-    }
-    .ml-10 {
-        margin-left: 15px;
-    }
-}
-@media screen and (min-width: 1356px) and (max-width: 1376px) {
-    .navbar-btn,
-    .header-logo {
-        margin-top: -4px !important;
-    }
-} */
-
-
-
-
-
-
-
-/* 
 @media screen and (max-width: 576px) {
-
     .desktop-only{
         display: none;
     }
-
     body {
         background-size: auto;
     }
-
-    .global-left-margin {
-        margin-left: 16px;
-    }
-
-    .ctas-1,
-    .ctas-2,
-    .arrow-icon {
-        display: none;
-    }
-    .section1-left-container {
-        margin-top: 110px;
-
-    }
-    .mobiles-icon1 {
-        top: -74px;
-        height: 600px;
-        padding-top: 13px;
-        padding-left: 5px;
-    }
-    .business-loans-made-container {
-        font-size: 26px;
-    }
-    .why-flexigro {
-        margin-left: 15px;
-        top: -175px;
-    }
-    .why {
-        font-size: 26px;
-        font-weight: 500;
-    }
-    .container-height-1 {
-        height: auto;
-    }
-    .container-height-2 {
-        margin-top: -200px;
-        width: 312px !important;
-        border-radius: 10px;
-    }
-    .body-text9 {
-        font-size: 14px;
-        line-height: 20px;
-    }
-
-
-
-
-    .effortlessly-1 {
-        font-size: 26px;
-        line-height: 32px;
-    }
-
-
-
-
-
-    .our-customers-love {
-        margin-left: 35px;
-        line-height: 20px;
-    }
-
-    .component-504{
-        display: none;
-    }
-
-    .sub-footer{
-        height: 258px;
-    }
-
-    
-
-    .icons-container{
-        margin-top: 10px;
-    }
-
-    .verify-the-following-parent {
-        display: block;
-    }
-
-    .footer {
-        background-color: rgba(255, 255, 255, 0.5);
-        padding: 5px;
-        text-align: center;
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        height: 80px;
-        width: 100%;
-    }
-    .mobile-only {
-        display: block !important;
-    }
-} 
-
-
-
-
-
-
-
-
-
-@media screen and (max-width: 576px) {
-    .container-2-margin {
-        padding-top: 40px;
-        padding-bottom: 20px !important;
-    }
-
-
-    .container-3-margin {
-        margin-top: 30px;
-        margin-left: 8px !important;
-        padding-bottom: 0 !important;
-    }
-
-    .container-3-margin > .container-4-margin {
-        padding-bottom: 0 !important;
-    }
-
-    .container-4-margin,
-    .container-3-margin > div {
-        width: 88% !important;
-    }
-    
-    .download-app {
-        display: none ;
-    }
-
-    .container-4-photo {
-        width: 90%;
-    }
-
-    .container-3-margin img{
-        margin-bottom: -7%;
-    }
-
-    .container-4-photo img{
-        width: 100%;  
-        height: auto;
-        aspect-ratio: 1;
-    }
-
-    .container-4-margin > div,
-    .container-3-margin,
-    .container-2-margin > div {
-        flex-direction: column;
-    }
-
-
-    .container-3-margin > .container-4-margin > div > div:nth-child(2) {
-        width: 100%;
-        margin-bottom: 0 !important;
-      }
-
-      .container-3-margin > .container-4-margin > div > div:nth-child(2) {
-        padding-top: 0% !important;
-      }
-
-    .container-3-margin > .container-4-margin {
-        margin-bottom: 0 !important;
-    }
-
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* @media (max-width: 480px) {
-    html,
-    body {
-        overflow-x: hidden !important;
-    }
-    body {
-        max-width: 480px;
-        background-size: auto;
-    }
-    header {
-        width: 100%;
-    }
-    .header-logo {
-        display: block;
-        width: 114px;
-    }
-    .logo-container {
-        width: 122px;
-    }
-    .navbar-btn,
-    .navbar-btn-body {
-        display: none;
-    }
-    .global-left-margin {
-        margin-left: 16px;
-    }
-    .global-right-margin {
-        margin-right: 0;
-    }
-    .custom-navbar {
-        max-width: 480px;
-        margin: 0;
-    }
-    .ctas-1,
-    .ctas-2,
-    .arrow-icon {
-        display: none;
-    }
-    .section1-left-container {
-        margin-top: 110px;
-    }
-    .mobiles-icon1 {
-        top: -74px;
-        height: 600px;
-        width: 330px;
-        padding-top: 13px;
-        padding-left: 5px;
-    }
-    .business-loans-made-container {
-        font-size: 26px;
-    }
-    .why-flexigro {
-        margin-left: 15px;
-        top: -175px;
-    }
-    .why {
-        font-size: 26px;
-        font-weight: 500;
-    }
-    .container-height-1 {
-        height: auto;
-    }
-    .container-height-2 {
-        margin-top: -200px;
-        width: 312px !important;
-        border-radius: 10px;
-    }
-    .body-text9 {
-        font-size: 14px;
-        line-height: 20px;
-    }
-    .card-1-seam-less-loan {
-        width: 312px;
-        height: 455px;
-        margin-left: 12px;
-    }
-    .seamless-loan-applications-container {
-        font-size: 26px;
-    }
-    .anim-3 {
-        height: 195px;
-        margin-left: -20px;
-        margin-top: 0px;
-    }
-    .body-text-parent1 {
-        margin-top: -240px;
-        margin-left: 10px;
-    }
-    .mobile-only {
-        display: block !important;
-    }
-    .effortlessly-1 {
-        font-size: 26px;
-        line-height: 32px;
-    }
-    .quick-approval {
-        font-size: 26px;
-    }
-    .body-text8 {
-        font-size: 14px;
-        line-height: 20px;
-        padding-top: 15px;
-    }
-    .lh {
-        line-height: 30px;
-    }
-    .desktop-only {
-        display: none;
-    }
-    .card-2,
-    .simplified {
-        width: 312px;
-    }
-    .simplified-child {
-        margin-left: 15px;
-    }
-    .stress-free-1,
-    .effortlessly {
-        font-size: 26px;
-    }
-    .simplified-bill-payments-container {
-        line-height: 30%;
-        left: 20px;
-    }
-    .body-text7 {
-        font-size: 14px;
-        width: 81%;
-        padding-top: 75px;
-        padding-left: 20px;
-    }
-    .mobile-centre-icon1 {
-        margin-left: 20px;
-        margin-top: 0px;
-    }
-    .mobile-centre-icon1-mobile {
-        height: 76%;
-        width: 85%;
-        margin-left: 20px;
-        margin-top: 0px;
-        transition: transform 0.3s ease;
-    }
-    .simplified-child-m:focus+.mobile-centre-icon1-mobile-m,
-    .mobile-centre-icon1-mobile-m:focus {
-        margin-top: 50px;
-        content: url('assets/SBP-1.svg');
-        transition: all 0.3s ease-in-out;
-        transform: translateY(20px);
-    }
-    .mobile-centre-icon1-mobile-m {
-        margin-left: 20px;
-        margin-top: 90px;
-        width: 231px;
-        bottom: 0.24%;
-        left: 58.6%;
-        border-top-radius: 20px;
-        transition: all 0.5s ease;
-    }
-    .simplified-child-m {
-        height: 100%;
-        width: 100%;
-        border-radius: 10px;
-        background-color: #e8ebfa;
-        border: 1px solid rgba(67, 81, 156, 0.15);
-        overflow: hidden;
-    }
-    .simplified-child-m:hover {
-        background: #d7deff;
-        -webkit-transition: background-color 200ms linear;
-        -ms-transition: background-color 200ms linear;
-        transition: background-color 200ms linear;
-    }
-    .simplified-child-m:hover .mobile-centre-icon1,
-    .mobile-centre-icon1:hover {
-        margin-left: 340px;
-        margin-top: -265px;
-        content: url('assets/bill-payments-2k.png');
-        animation: slide-in 200ms;
-        -webkit-animation: slide-in 200ms ease-out;
-        animation-fill-mode: forwards
-    }
-    .earn-rewards {
-        margin-top: 30px;
-        border-radius: 10px;
-    }
-    .earn-rewards-effortlessly-container {
-        line-height: 30%;
-        top: 45px;
-        left: 20px;
-    }
-    .body-text6 {
-        line-height: 18px;
-        font-size: 14px;
-        padding-top: 65px;
-        padding-left: 20px;
-    }
-    .mobile-centre-icon2 {
-        bottom: 0px;
-        left: 20px;
-    }
-    .mobile-centre-icon2-mobile {
-        position: relative;
-        height: 82%;
-        width: 70%;
-        bottom: 0px;
-        left: 20px;
-    }
-    .earn-rewards-child-2:hover+.mobile-centre-icon2-mobile,
-    .mobile-centre-icon2-mobile:hover {
-        bottom: -4px;
-        left: 20px;
-        content: url('assets/ERE-2.svg');
-        transform: translateY(-10px);
-    }
-    .card-3-stress-free {
-        width: 316px;
-        margin-left: 12px;
-        margin-top: 30px;
-        border-radius: 10px;
-    }
-    .text {
-        margin-left: 0px;
-        margin-top: 45px;
-        width: 66%;
-    }
-    .stress-free-emi-repayments-container {
-        line-height: 20px;
-        display: inline;
-    }
-    .effortlessly-2 {
-        margin-top: 10px;
-        font-size: 26px;
-        width: 215px;
-    }
-    .body-text5 {
-        width: 134%;
-        padding-top: 15px;
-        font-size: 14px;
-        line-height: 20px;
-    }
-    .mobile-centre-icon {
-        top: -127%;
-        left: 5px;
-        height: 190px;
-    }
-    .anime-5 {
-        width: 232px;
-        height: 212px;
-    }
-    .container-3-margin {
-        margin-top: 30px;
-        margin-left: 12px !important;
-    }
-    .container-4-margin {
-        position: relative;
-        margin-top: 30px;
-        max-width: 312px !important;
-    }
-    .container-5-margin {
-        line-height: 14px;
-        margin-top: -130px;
-    }
-    .container-6-margin {
-        position: relative;
-        margin-top: 190px;
-        left: 20px;
-    }
-    .fg-bg-icon {
-        position: relative;
-    }
-    .card-10 {
-        width: 300px;
-        height: 180px;
-        margin-bottom: 20px;
-        margin-top: -50px;
-        background-color: #ffeef2;
-        border: 1px solid rgba(209, 99, 127, 0.15);
-    }
-    .mask-group-icon4 {
-        left: 8%;
-        width: 65px;
-        height: 65px;
-    }
-    .card-9 {
-        width: 300px;
-        height: 160px;
-        margin-bottom: 20px;
-    }
-    .card-8 {
-        width: 300px;
-        height: 167px;
-        background-color: #ffeef2;
-        border: 1px solid rgba(209, 99, 127, 0.15);
-    }
-    .card-7 {
-        width: 300px;
-        height: 160px;
-        margin-left: 14px !important;
-        margin-bottom: 20px;
-        background-color: #e8ebfa;
-        border: 1px solid rgba(67, 81, 156, 0.15);
-    }
-    .cards-allign-2 {
-        justify-content: start;
-    }
-    .card-6 {
-        width: 300px;
-        height: 184px;
-        margin-left: 5px !important;
-        margin-top: 0;
-        background-color: #ffeef2;
-        border: 1px solid rgba(209, 99, 127, 0.15);
-    }
-    .serious-security {
-        top: 18%;
-        left: 18px;
-    }
-    .rbi-registered {
-        top: 17%;
-        left: 28px;
-    }
-    .body-text4 {
-        font-size: 14px;
-        line-height: 18px;
-        top: 48px;
-        left: 20px;
-    }
-    .icon {
-        left: 6%;
-        height: 65px;
-        width: 65px;
-    }
-    .responsibility {
-        top: 18%;
-        left: 22px;
-    }
-    .body-text99 {
-        font-size: 14px;
-        line-height: 18px;
-        left: 25px;
-        top: 35px;
-    }
-    .privacy-protection {
-        top: -32px;
-        left: 92px;
-    }
-    .body-text2 {
-        top: -15%;
-        left: 30px;
-        line-height: 18px;
-        font-size: 14px;
-    }
-    .effortlessly-5 {
-        font-size: 26px;
-        line-height: 15px;
-        color: #313654;
-        font-weight: 600;
-        font-family: "DM Sans", sans-serif;
-    }
-    .body-text77 {
-        top: 40px;
-        right: 15px;
-        left: 16px;
-        width: 100%;
-        line-height: 3px;
-        font-size: 14px;
-    }
-    .anti-phishing-icon {
-        height: 65px;
-        width: 65px;
-        left: 5%;
-    }
-    .anti-phishing {
-        top: 15%;
-        left: 18px;
-    }
-    .body-text11 {
-        width: 87%;
-        top: 30px;
-        left: 28px;
-        line-height: 18px;
-        font-size: 14px;
-        margin-top: 5px !important;
-    }
-    .container-7 {
-        top: 30px;
-    }
-    .our-customers-love {
-        margin-left: 20px;
-        line-height: 12px;
-    }
-    div.highway-slider {
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        height: 324px;
-        div.highway-barrier {
-            position: relative;
-            margin-top: 40px;
-        }
-    }
-    .sub-footer {
-        position: relative;
-        top: -110px;
-        margin-bottom: -26px;
-    }
-    .footer-appstore {
-        padding-top: 12px;
-    }
-    .mask-group-parent {
-        margin-left: 10px;
-    }
-    .verify-the-following22 {
-        position: relative;
-        white-space: nowrap;
-        margin-top: 0;
-        margin-left: 14px
-    }
-    .verify-the-following-parent {
-        display: block;
-    }
-    .iconslinkedin-parent {
-        display: block;
-        margin-top: 10px;
-        margin-left: 10px;
-    }
-    .footer {
-        background-color: rgba(255, 255, 255, 0.5);
-        padding: 5px;
-        text-align: center;
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        height: 80px;
-        width: 100%;
-    }
-    .slider {
-        margin-top: 25px;
-    }
-}
-@media screen and (min-width: 1400px) {
-    .container,
-    .container-lg,
-    .container-md,
-    .container-sm,
-    .container-xl,
-    .container-xxl {
-        max-width: 1217px !important;
-    }
-    .container-4-margin {
-        max-width: 1195px !important;
-    }
-    .verify-the-following21 {
-        margin-top: 0px;
-    }
-}
-@media screen and (min-width: 1100px) and (max-width: 1399px) {
-    .navbar-btn,
-    .header-logo {
-        margin-top: -4px !important;
-    }
-    .earn-rewards {
-        width: 100%;
-        padding-left: 0px;
-    }
-    .mask-group-parent {
-        margin-top: 0;
-        margin-left: 10px;
-    }
-    .mask-group-icon3 {
-        top: 5px;
-    }
-    .verify-the-following21 {
-        margin-top: 10px;
-    }
-    .verify-the-following-parent {
-        margin-right: 1rem;
-    }
-    .container-4-margin {
-        max-width: 1116px !important;
-    }
-    .component-502 {
-        margin-top: 115px;
-    }
-    .mobile-centre-icon1 {
-        margin-left: 308px;
-    }
-    .simplified-child:hover .mobile-centre-icon1,
-    .mobile-centre-icon1:hover {
-        margin-left: 301px;
-    }
-    .mobile-centre-icon2 {
-        margin-left: 306px;
-    }
-    .earn-rewards-child-2:hover .mobile-centre-icon2,
-    .mobile-centre-icon2:hover {
-        margin-left: 300px;
-    }
-    .why,
-    .seamless-loan-applications-container,
-    .effortlessly-1,
-    .stress-free-1,
-    .effortlessly,
-    .effortlessly-2 {
-        font-size: 33px;
-    }
-    .questionMark {
-        margin-left: -470px;
-    }
-}
-@media screen and (min-width: 1275px) and (max-width: 1285px) {
-    .navbar-btn,
-    .header-logo {
-        margin-top: -4px !important;
-    }
-}
-@media screen and (min-width: 1500px) and (max-width: 1560px) {
-    .ml-10 {
-        margin-left: 15px;
-    }
-}
-@media screen and (min-width: 1400px) and (max-width: 1460px) {
-    .navbar-btn,
-    .header-logo {
-        margin-top: -4px;
-    }
-    .verify-the-following-parent {
-        margin-right: 1rem;
-    }
-    .c-ms-3 {
-        margin-left: 1.5rem !important;
-    }
-    .ml-10 {
-        margin-left: 15px;
-    }
-}
-@media screen and (min-width: 1356px) and (max-width: 1376px) {
-    .navbar-btn,
-    .header-logo {
-        margin-top: -4px !important;
-    }
-} */
-
-
-
-
-
-
-
-
-@media screen and (max-width: 576px) {
-
-    .desktop-only{
-        display: none;
-    }
-
-    body {
-        background-size: auto;
-    }
-
-    .global-left-margin {
-        margin-left: 16px;
-    }
-
     .ctas-1,
     .ctas-2,
     .arrow-icon {
@@ -1334,10 +24,6 @@
     .business-loans-made-container {
         font-size: 26px;
     }
-    .why-flexigro {
-        margin-left: 15px;
-        top: -175px;
-    }
     .why {
         font-size: 26px;
         font-weight: 500;
@@ -1350,106 +36,70 @@
     .body-text9 {
         font-size: 14px;
         line-height: 20px;
-    } 
-
-
-
-
+    }
     .effortlessly-1, .effortlessly-2,.stress-free-1 {
         font-size: 26px;
         line-height: 32px;
     }
-
     .effortlessly-2{
         margin-top: 0;
     }
-
-
     .seamless-line-height{
         line-height: 29.9px;
     }
-
     .body-text5{
         line-height: 20px;
         font-size: 14px;
     }
-    
-
-
-
-   
-
     .security-and-support-card{
-        /* width: ; */
         height: auto;
         border-radius: 10px;
     }
-
     .rbi-icon{
         height: 24.31%;
         width: 20.78%;
     }
-
     .security-icons{
         height: 22.31%;
         width: 16.35%;
     }
-
     .support-text{
         color: #53576d;
         font-weight: 400;
         font-size: 14px;
     }
-
     .container-5-margin{
         padding-bottom: 35px;
     }
-
-
     .testimonial-top-margin{
         margin-top: 1.5rem !important;
       }
-
-    /* .fb-bg-icon{
-        height: 500px !important;
-    } */
-
     .container-6-margin {
         width: 86.7% !important;
     }
-
-
     .our-customers-love {
         margin-left: 6% !important;
         line-height: 15px;
         top: -1.15em !important;
     }
-
     .component-504{
         display: none;
     }
-
     .sub-footer{
         height: 258px;
-    }
-
-    
+    } 
     .fg-bg-icon {
         height: 475px;
       }
-
     .slider{
         margin-top: -15px !important;
     }
-
     .icons-container{
         margin-top: 10px;
     }
-
     .verify-the-following-parent {
         display: block;
     }
-
     .footer {
         background-color: rgba(255, 255, 255, 0.5);
         padding: 5px;
@@ -1463,116 +113,114 @@
     .mobile-only {
         display: block !important;
     }
-} 
-
-
-
-
-
-
-@media screen and (max-width: 576px) {
     .main-container {
         row-gap: 28px;
     }
-
-    .main-container > .section-container:nth-child(2) {
-       /* margin-bottom: -20px; */
-    }
-
     .main-container .section-container {
         width: 86.7% !important;
     }
-
     .container-2-margin {
         padding-bottom: 20px !important;
     }
-
-
     .container-3-margin {
         padding-bottom: 0 !important;
     }
-
     .container-3-margin>.container-4-margin {
         padding-bottom: 0 !important;
     }
-
-
     .container-3-margin>div {
         width: 100%;
     }
-
     .container-3-margin > div:hover {
         background-color: #e8ebfa;
     }
-
     .container-4-margin {
         border-radius: 10px;
     }
-
     .container-4-margin-bottom{
         margin-bottom: -25px !important;
     }
-
-
-
     .download-app {
         display: none;
     }
-
     .container-4-margin>div {
         padding-right: 0;
     }
-
     .container-4-photo {
         width: 78%;
     }
-
     .container-3-margin img {
         margin-bottom: -7%;
         margin-top: -20px;
     }
-    
-
     .card-3-stress-free{
         margin-top: -20px;
     }
-
     .container-4-photo img {
         width: 100%;
         height: auto;
         aspect-ratio: 1;
     }
-
+    .container-4-photo {
+        width: 100%;
+        height: auto;
+    }
+    
+    .container-4-photo-transition-effect img {
+        overflow: hidden; /* Ensure the image is hidden initially */
+        opacity: 0; /* Initially hidden */
+        transition: opacity 0.3s ease-in-out; /* Smooth transition */
+    }
+    
+    .fade-in {
+        opacity: 1 !important;
+        animation: fadeIn 0.3s ease-in-out;
+    }
+    
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: translateY(100%);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    
+    
+    
     .container-4-margin>div,
     .container-3-margin,
     .container-2-margin>div {
         flex-direction: column;
         row-gap: -42px;
     }
-
-
-
     .container-3-margin {
         row-gap: 28px
     }
-
     .container-2-margin > div > div:first-child {
         padding-top: 0;
       }
-
-
     .container-3-margin>.container-4-margin>div>div:nth-child(2) {
         width: 100%;
         margin-bottom: 0 !important;
     }
-
     .container-3-margin>.container-4-margin>div>div:nth-child(2) {
         padding-top: 0% !important;
     }
-
     .container-3-margin>.container-4-margin {
         margin-bottom: 0 !important;
         padding-right: 8px;
     }
-    
+}
+
+
+
+@media screen and (min-width : 576px) {
+    .container-3-margin > .container-4-margin > div > div:nth-child(2):hover {
+        width: 42%;
+        padding-top: 10%;
+        margin-bottom: -14%;
+      }
 }
