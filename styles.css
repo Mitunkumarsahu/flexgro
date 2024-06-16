@@ -59,6 +59,7 @@ body {
   font-size: 14px;
   font-weight: 500;
   font-family: "DM Sans";
+  cursor: pointer;
 }
 
 .navbar-btn:hover {
@@ -257,6 +258,10 @@ body {
 .ctas-2 {
   width: 156px;
   height: 48px;
+}
+
+.ctas-1, .ctas-2{
+  cursor: pointer;
 }
 
 .earn-rewards {
@@ -764,8 +769,8 @@ body {
   top: 70px;
   left: 0;
   right: 0;
-  margin: 0 auto;
 }
+
 
 .customers {
   top: 3190px;
@@ -826,7 +831,7 @@ body {
 }
 
 .main-container .section-container {
-  width: 80.42% !important;
+  width: 80.42%;
 }
 
 
@@ -874,7 +879,7 @@ body {
 
 
 .container-4-text {
-  margin: 50px 10px 0;
+  margin: 50px 10px 0 8px;
 }
 
 
