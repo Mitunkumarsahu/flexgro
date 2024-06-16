@@ -78,7 +78,8 @@
         width: 86.7% !important;
     }
     .our-customers-love {
-        margin-left: 6% !important;
+        /* margin-left: 6% !important; */
+        margin-left: 8.8%;
         line-height: 15px;
         top: -1.15em !important;
     }
@@ -167,9 +168,9 @@
     }
     
     .container-4-photo-transition-effect img {
-        overflow: hidden; /* Ensure the image is hidden initially */
-        opacity: 0; /* Initially hidden */
-        transition: opacity 0.3s ease-in-out; /* Smooth transition */
+        overflow: hidden; 
+        opacity: 0; 
+        transition: opacity 0.3s ease-in-out; 
     }
     
     .fade-in {
@@ -180,7 +181,7 @@
     @keyframes fadeIn {
         from {
             opacity: 0;
-            transform: translateY(100%);
+            transform: translateY(10%);
         }
         to {
             opacity: 1;
@@ -223,4 +224,21 @@
         padding-top: 10%;
         margin-bottom: -14%;
       }
+}
+
+
+@media screen and (min-width: 576px) and (max-width: 1400px) {
+    .section-container{
+        width: 90.8% !important;
+    }    
+
+    .our-customers-love-us{
+        margin-left: 4.8%;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .our-customers-love-us{
+        margin-left: 10.2%;
+    }    
 }
