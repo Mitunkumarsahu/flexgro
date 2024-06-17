@@ -251,19 +251,82 @@
         margin-bottom: -14%;
       } */
 
-      .section3-left-container:hover .container-4-photo,
-      .section3-right-container:hover .container-4-photo {
-          width: 42%;
-          padding-top: 10%;
-          margin-bottom: -14%;
-          transform: translate(-12%, -10%);
-          transition: all 0.3s ease-in-out; 
-        }
+    /* .section3-left-container:hover .container-4-photo,
+    .section3-right-container:hover .container-4-photo {
+        width: 42%;
+        padding-top: 10%;
+        margin-bottom: -14%;
+        transform: translate(-12%, -10%);
+        transition: all 0.3s ease-in-out 0s; 
+    }
 
-        .container-4-photo {
-            transform: translate(0, 0);
-            transition: all 0.3s ease-in-out; 
+    .container-4-photo {
+        transform: translate(0%, 0%);
+        transition: all 0.3s ease-in-out 0s; 
+    } */
+
+
+    @keyframes slide-in {
+        from {
+        transform: translate(10%, 10%);
         }
+        to {
+        transform: translate(0%, 0%);
+        }
+    }
+    
+    @-webkit-keyframes slide-in {
+        from {
+        -webkit-transform: translate(10%, 10%);
+        }
+        to {
+        -webkit-transform: translate(0%, 0%);
+        }
+    }
+    
+    @keyframes slide-out {
+        from {
+        transform: translate(0%, 0%);
+        }
+        to {
+        transform: translate(10%, 10%);
+        }
+    }
+    
+    @-webkit-keyframes slide-out {
+        from {
+        -webkit-transform: translate(0%, 0%);
+        }
+        to {
+        -webkit-transform: translate(10%, 10%);
+        }
+    }
+    
+    /* Default State with Smooth Transition */
+    /* .container-4-photo {
+        transform: translate(10%, 10%);
+        transition: transform 0.3s ease-in-out;
+    } */
+    
+    /* Apply Hover Animation */
+    .section3-left-container:hover .container-4-photo,
+    .section3-right-container:hover .container-4-photo {
+        animation: slide-in 0.3s ease-in-out forwards;
+        transform: translate(0%, 0%); 
+    }
+    
+    /* Apply Return Animation */
+    .section3-left-container .container-4-photo,
+    .section3-right-container .container-4-photo {
+        animation: slide-out 0.3s ease-in-out forwards;
+        transform: translate(10%, 10%); 
+    }
+    
+    .section3-left-container:hover .container-4-photo,
+    .section3-right-container:hover .container-4-photo {
+        animation: slide-in 0.3s ease-in-out forwards;
+    }
+    
 
     .mobiles-icon-container{
         justify-content: end;
