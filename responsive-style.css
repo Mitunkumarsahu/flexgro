@@ -14,6 +14,9 @@
         margin-top: 110px;
 
     }
+    .mobiles-icon-container{
+        justify-content: center;
+    }
     .mobiles-icon1 {
         top: -74px;
         height: 600px;
@@ -147,9 +150,6 @@
     .container-4-margin>div {
         padding-right: 0;
     }
-    .container-4-photo {
-        width: 78%;
-    }
     .container-3-margin img {
         margin-bottom: -7%;
         margin-top: -20px;
@@ -163,28 +163,29 @@
         aspect-ratio: 1;
     }
     .container-4-photo {
-        width: 100%;
+        /* width: 100%; */
+        width: 78%;
         height: auto;
     }
     
     .container-4-photo-transition-effect img {
-        overflow: hidden; 
-        opacity: 0; 
+        /* overflow: hidden; 
+        opacity: 0;  */
         transition: opacity 0.3s ease-in-out; 
     }
     
     .fade-in {
-        opacity: 1 !important;
+        /* opacity: 1 !important; */
         animation: fadeIn 0.3s ease-in-out;
     }
     
     @keyframes fadeIn {
         from {
-            opacity: 0;
+            /* opacity: 0; */
             transform: translateY(10%);
         }
         to {
-            opacity: 1;
+            /* opacity: 1; */
             transform: translateY(0);
         }
     }
@@ -218,13 +219,13 @@
 
 
 
-@media screen and (min-width : 576px) {
+/* @media screen and (min-width : 576px) {
     .container-3-margin > .container-4-margin > div > div:nth-child(2):hover {
         width: 42%;
         padding-top: 10%;
         margin-bottom: -14%;
       }
-}
+} */
 
 
 @media screen and (min-width: 576px) and (max-width: 1400px) {
@@ -241,4 +242,34 @@
     .our-customers-love-us{
         margin-left: 10.2%;
     }    
+}
+
+@media screen and (min-width: 1200px) {
+    /* .container-3-margin > .container-4-margin > div > div:nth-child(2):hover {
+        width: 42%;
+        padding-top: 10%;
+        margin-bottom: -14%;
+      } */
+
+      .section3-left-container:hover .container-4-photo,
+      .section3-right-container:hover .container-4-photo {
+          width: 42%;
+          padding-top: 10%;
+          margin-bottom: -14%;
+          transform: translate(-12%, -10%);
+          transition: all 0.3s ease-in-out; 
+        }
+
+        .container-4-photo {
+            transform: translate(0, 0);
+            transition: all 0.3s ease-in-out; 
+        }
+
+    .mobiles-icon-container{
+        justify-content: end;
+    }
+
+    .seamless-loan-application-container{
+        padding-top: 10px;
+    }
 }
