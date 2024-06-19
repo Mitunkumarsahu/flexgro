@@ -627,6 +627,15 @@ body {
   position: relative;
 }
 
+.sivakumar-image{
+  margin-top: 65px;
+  margin-left: 30px;
+}
+
+.stephan-image{
+  margin-top: 45px;
+}
+
 .customer-3-image{
   margin-top: 80px !important;
 }
