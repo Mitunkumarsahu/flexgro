@@ -245,6 +245,10 @@ body {
   width: 390px;
   height: 342px;
 }
+.payment-anime-5 {
+  width: 370px;
+  height: 342px;
+}
 
 
 
@@ -382,6 +386,9 @@ body {
   color: #53576d;
   font-family: "DM Sans", sans-serif;
 }
+.c-ms-3 {
+  margin-left: 0.75rem !important;
+}
 
 
 
@@ -423,7 +430,7 @@ body {
   .mask-group-icon4 {
     position: relative;
     height: 24.31%;
-    width: 20.78%;
+    width: 22%;
     top: 14%;
     left: 30px;
   }
@@ -460,7 +467,7 @@ body {
     letter-spacing: -0.03em;
     line-height: 110%;
     top: 42%;
-    right: 50px;
+    right: 55px;
   }
      .body-text4,
   .body-text99,
@@ -532,7 +539,7 @@ body {
     letter-spacing: -0.03em;
     line-height: 110%;
     top: 42%;
-    right: 30px;
+    right: 35px;
   }
   
   .cards-allign-2 {
@@ -864,4 +871,7 @@ body {
 
 .brand-logo-horizontal-color-1-wrapper {
   width: 167px;
+}
+.custom-margin {
+  margin-top: 5px;
 }
