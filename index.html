@@ -140,7 +140,7 @@
                                                 Just help us with a few details, and boom,
                                                 we'll have a loan offer ready for you!</p>
                                         </div>
-                                        <div class="navbar-btn component-50 download-app" style="margin-top: 120px;">
+                                        <div class="navbar-btn component-503 download-app AP" style="margin-top: 140px;">
                                             Download the App
                                             <img class="apple-logo-1-icon" alt="" src="assets/apple-logo.svg">
                                             <img class="playstore-1-icon" alt="" src="assets/playstore.svg">
@@ -169,7 +169,7 @@
                                         </b>
                                         <div class="body-text5 desktop-only">Pick, Pay, Done: Quick<br>Bill Payments</div>
                                         <div class="body-text5 mobile-only pt-1">Pick, Pay, Done: Quick Bill Payments</div>
-                                        <div class="navbar-btn component-50 download-app" style="margin-top: 120px;">
+                                        <div class="navbar-btn component-502 download-app" style="margin-top: 125px;">
                                             Download the App
                                             <img class="apple-logo-1-icon" alt="" src="assets/apple-logo.svg">
                                             <img class="playstore-1-icon" alt="" src="assets/playstore.svg">
@@ -204,7 +204,7 @@
                                             <p class="stress-free">Unlock reward money along your journey.</p>
                                             <p class="stress-free">Earn as You Go!</p>
                                         </div>
-                                        <div class="navbar-btn component-50 download-app container-3-download-app-button"
+                                        <div class="navbar-btn component-501 download-app container-3-download-app-button"
                                         style="margin-top: 100px;">
                                         Download the App
                                         <img class="apple-logo-1-icon" alt="" src="assets/apple-logo.svg">
@@ -260,7 +260,7 @@
                         </div>
                         <div class="mx-0 px-1">
                             <div class="container-4-photo payment-successful-container">
-                                <img src="assets/payment_successful.png" class="anime-5 payment-successful desktop-only" alt="">
+                                <img src="assets/payment_successful.png" class="payment-anime-5 payment-successful desktop-only" alt="">
                                 <img src="assets/payment_successful.png" class="anime-5 payment-successful mobile-only" alt=""  style="margin-left: 2.6px;">
                             </div>
                         </div>
@@ -296,7 +296,7 @@
                                 <img class="icon" alt="" src="assets/responsibility.svg">
                                 <b class="responsibility effortlessly-1">Responsibility</b>
                                 <div class="body-text99" style=" letter-spacing: -0.02em;">
-                                    <p>We never sell or share your data with</p>
+                                    <p class="custom-margin">We never sell or share your data with</p>
                                     <p style="margin-top: -16px;">the marketing companies and 3rd party</p>
                                 </div>
                             </div>
@@ -310,7 +310,7 @@
                                     <p class="mobile-only">Protection</p>
                                 </div>
                                 <div class="body-text2">
-                                    <p>If your loan is not approved, we delete</p>
+                                    <p class="custom-margin">If your loan is not approved, we delete</p>
                                     <p style="margin-top: -16px;">your data within a week</p>
                                 </div>
                             </div>
@@ -332,7 +332,7 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="lower-cards security-and-support-card ms-4">
+                            <div class="lower-cards security-and-support-card c-ms-3">
                                 <img class="anti-phishing-icon" alt=""
                                     src="assets/Anti-phishing-icon-(withoutwhite).svg">
                                 <b class="lower-card-heading effortlessly-1">Anti Phishing</b>
@@ -780,8 +780,46 @@
         </div>
     </div>
     <!--Clevertap script starts-->
+    <script type="text/javascript">
+        var clevertap = {
+            event: [],
+            profile: [],
+            account: [],
+            onUserLogin: [],
+            notifications: [],
+            privacy: []
+        };
+       
+        clevertap.privacy.push({
+            optOut: false
+        }); //set the flag to true, if the user of the device opts out of sharing their data
+        clevertap.privacy.push({
+            useIP: false
+        });
+        (function () {
+            var wzrk = document.createElement('script');
+            wzrk.type = 'text/javascript';
+            wzrk.async = true;
+            wzrk.src = ('https:' == document.location.protocol ? 'https://d2r1yp2w7bby2u.cloudfront.net' :
+                'http://static.clevertap.com') + '/js/a.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(wzrk, s);
+        })();
+    </script>
     <!--Clevertap script ends-->
     <!-- Mixpanel starts -->
+    <script type="text/javascript">
+        (function (f, b) {
+            if (!b.__SV) {
+                var e, g, i, h; window.mixpanel = b; b._i = []; b.init = function (e, f, c) {
+                    function g(a, d) { var b = d.split("."); 2 == b.length && (a = a[b[0]], d = b[1]); a[d] = function () { a.push([d].concat(Array.prototype.slice.call(arguments, 0))) } } var a = b; "undefined" !== typeof c ? a = b[c] = [] : c = "mixpanel"; a.people = a.people || []; a.toString = function (a) { var d = "mixpanel"; "mixpanel" !== c && (d += "." + c); a || (d += " (stub)"); return d }; a.people.toString = function () { return a.toString(1) + ".people (stub)" }; i = "disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking start_batch_senders people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(" ");
+                    for (h = 0; h < i.length; h++)g(a, i[h]); var j = "set set_once union unset remove delete".split(" "); a.get_group = function () { function b(c) { d[c] = function () { call2_args = arguments; call2 = [c].concat(Array.prototype.slice.call(call2_args, 0)); a.push([e, call2]) } } for (var d = {}, e = ["get_group"].concat(Array.prototype.slice.call(arguments, 0)), c = 0; c < j.length; c++)b(j[c]); return d }; b._i.push([e, f, c])
+                }; b.__SV = 1.2; e = f.createElement("script"); e.type = "text/javascript"; e.async = !0; e.src = "undefined" !== typeof MIXPANEL_CUSTOM_LIB_URL ?
+                    MIXPANEL_CUSTOM_LIB_URL : "file:" === f.location.protocol && "//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//) ? "https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js" : "//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js"; g = f.getElementsByTagName("script")[0]; g.parentNode.insertBefore(e, g)
+            }
+        })(document, window.mixpanel || []);
+       
+    </script>
     <!-- Mixpanel Ends -->
     <script src="js/home.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
